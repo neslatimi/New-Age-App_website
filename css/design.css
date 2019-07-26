@@ -4,18 +4,21 @@
     font-weight: lighter;
     text-align: left;
     line-height: 1.5em;
-    
+
 }
+
 header {
     background: url('/img/bg-pattern.png'),
-        linear-gradient(to right, #e2142f, #bb2e58);
+        linear-gradient(to right, #e2142f, #8f4cc5);
 }
-.header-row{
+
+.header-row {
     position: relative;
     padding: 100px
 }
-.imgPhone{
-    background: url('/img/demo-screen-1.jpg')center,no-repeat;
+
+.imgPhone {
+    background: url('/img/demo-screen-1.jpg')center, no-repeat;
     background-repeat: no-repeat;
     background-size: 88%;
     border-radius: 10.5%;
@@ -23,9 +26,11 @@ header {
     width: auto;
 
 }
+
 nav.scrolled-nav {
     background: #fff;
 }
+
 nav.scrolled-nav .nav-item.second a,
 nav.scrolled-nav .nav-item.third a,
 nav.scrolled-nav .navbar-brand {
@@ -45,6 +50,7 @@ nav .nav-item,
 section {
     padding: 50px;
 }
+
 .custom-btn {
     background: transparent;
     color: #fff;
@@ -52,7 +58,7 @@ section {
     display: inline-block;
     padding: 2vh 4vw;
     border-radius: 10vh;
-  
+
 
 }
 
@@ -85,3 +91,10 @@ nav.scrolled-nav .nav-item.first a {
 .white-color {
     color: #fff;
 }
+.yellow-bg {
+    position: relative;
+    background:#ffd344;
+    padding: 150px;
+}
+
+/***********************************************************/
