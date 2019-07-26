@@ -12,7 +12,7 @@ window.onscroll = () => {
 $('.header-btn').mouseover(() => {
   setTimeout(() => {
     $('.header-btn')
-      .css({ 'background-color': ' #ffd344', 'border-color': ' #ffd344' });
+      .css({ 'background-color': ' #fdcc52', 'border-color': ' #ffd344' });
   }, 300);
 });
 $('.header-btn').mouseleave(() => {

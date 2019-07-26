@@ -1,10 +1,15 @@
-
+.unlimited-features-section .fa{
+       color:  #94406e;
+}
 .headings {
     font-family: 'Catamaran', Helvetica, Arial, sans-serif;
     font-weight: lighter;
     text-align: left;
     line-height: 1.5em;
-
+    
+}
+.unlimited-features-section p{
+    color: #796f6f
 }
 
 header {
@@ -13,7 +18,7 @@ header {
 }
 
 .header-row {
-    position: relative;
+   
     padding: 100px
 }
 
@@ -22,9 +27,15 @@ header {
     background-repeat: no-repeat;
     background-size: 88%;
     border-radius: 10.5%;
-    height: auto;
+    max-height: 500px;
     width: auto;
 
+}
+.stop-waiting-section {
+    padding: 150px 0;
+    background: url('/img/bg-cta.jpg') no-repeat center center;
+    box-shadow: inset 0 0 0 4096px rgba(0, 0, 0, .25);
+    background-size: cover;
 }
 
 nav.scrolled-nav {
@@ -34,14 +45,17 @@ nav.scrolled-nav {
 nav.scrolled-nav .nav-item.second a,
 nav.scrolled-nav .nav-item.third a,
 nav.scrolled-nav .navbar-brand {
-    color: #303030;
+    color: #685c5c;
 }
 
 nav .nav-item,
 .btn {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
-
+.stop-waiting-section .headings{
+    color: #fff;
+    font-size: 4rem;
+}
 .nav-item a,
 .nav-item:hover {
     color: #fff;
@@ -54,17 +68,19 @@ section {
 .custom-btn {
     background: transparent;
     color: #fff;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     display: inline-block;
-    padding: 2vh 4vw;
-    border-radius: 10vh;
-
-
+    width: 50%;
+    height: auto;
+    border-radius: 1rem;
+    padding: 8px;
 }
-
+.fa-heart{
+    color: #e2142f;
+}
 .navbar-brand,
 nav.scrolled-nav .nav-item.first a {
-    color: #ffd344;
+    color: #fdcc52;
 }
 
 .navbar-brand:hover {
@@ -85,16 +101,58 @@ nav.scrolled-nav .nav-item.first a {
     display: flex;
     align-items: right;
     justify-content: center;
-    flex-direction: column
+    flex-direction: column;
+    
 }
 
 .white-color {
     color: #fff;
 }
 .yellow-bg {
-    position: relative;
+   
     background:#ffd344;
     padding: 150px;
+    
 }
+.yellow-bgsocial {
+   
+    background:#ffd344;
+    padding: 50px;
+    
+}
+.custom-facebook-icon,
+.custom-twitter-icon,
+.custom-google-plus-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    text-align: center;
+    opacity: 0.9;
+}
+.custom-twitter-icon{
+    background-color:#32b1d8;
+}
+.custom-facebook-icon {
+    background-color: #2e3baf;
+   opacity: 0.9;
+}
+.custom-facebook-icon:hover,
+.custom-twitter-icon:hover,
+.custom-google-plus-icon
+ {
+    opacity: 1;
+}
+.custom-google-plus-icon{
+    background-color:#ce280b;
+}
+.custom-facebook-icon i,
+.custom-twitter-icon i,
+.custom-google-plus-icon i {
+    color: #fff;
+    line-height: 80px;
+}
+
+
 
 /***********************************************************/
