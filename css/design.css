@@ -1,4 +1,87 @@
 
-h1{
-    font-family: Catamaran, Helvetica, Arial, sans-serif;
+.headings {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 1.5em;
+    
+}
+header {
+    background: url('/img/bg-pattern.png'),
+        linear-gradient(to right, #e2142f, #bb2e58);
+}
+.header-row{
+    position: relative;
+    padding: 100px
+}
+.imgPhone{
+    background: url('/img/demo-screen-1.jpg')center,no-repeat;
+    background-repeat: no-repeat;
+    background-size: 88%;
+    border-radius: 10.5%;
+    height: auto;
+    width: auto;
+
+}
+nav.scrolled-nav {
+    background: #fff;
+}
+nav.scrolled-nav .nav-item.second a,
+nav.scrolled-nav .nav-item.third a,
+nav.scrolled-nav .navbar-brand {
+    color: #303030;
+}
+
+nav .nav-item,
+.btn {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.nav-item a,
+.nav-item:hover {
+    color: #fff;
+}
+
+section {
+    padding: 50px;
+}
+.custom-btn {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 2vh 4vw;
+    border-radius: 10vh;
+  
+
+}
+
+.navbar-brand,
+nav.scrolled-nav .nav-item.first a {
+    color: #ffd344;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.mobile-mb-50 {
+    margin-bottom: 50px;
+}
+
+@media(min-width:768px) {
+    .mobile-mb-50 {
+        margin-bottom: 0;
+    }
+}
+
+.vertical-center {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column
+}
+
+.white-color {
+    color: #fff;
 }
