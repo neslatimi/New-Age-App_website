@@ -40,13 +40,14 @@ const testImonial = {
     for (let i = 0; i < this.data.length; i += 1) {
       div += this.divMaker(this.data[i], i);
     }
-    document.querySelector('.test').innerHTML = div;
+    console.log(document.querySelector('.test').innerHTML = div);
   },
   divMaker(person, index) {
     return `<div>
-    ${person.name.first}
-</div>`;
+      <div class="img"><img src="${person[index].picture}" alt=""></div>
+      <div class="h4">${person[index].name.first}</div>
+      <p>${person[index].greeting}</p>                    
+      </div>`;
   },
-
 };
 testImonial.init();

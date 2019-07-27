@@ -152,7 +152,15 @@ nav.scrolled-nav .nav-item.first a {
     color: #fff;
     line-height: 80px;
 }
-
-
+footer{
+    background-color: #333333;
+    color: #796f6f ;
+}
+footer a{
+    color:  #796f6f ;
+}
+footer a:hover{
+    color: #fdcc52
+}
 
 /***********************************************************/
