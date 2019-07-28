@@ -126,7 +126,30 @@ nav.scrolled-nav .nav-item.first a {
         margin-bottom: 0;
     }
 }
-
+@media(max-width:768px){
+    .btn-sm{
+        width:auto;
+        }
+}
+@media(max-width:768px){
+    .mobile-mb-50 .headings{
+      font-size:30px;
+      margin-top:50px
+    }
+}
+@media(min-width:768px){
+    .yellow-bg{
+            background: #ffd344;
+            padding: 150px;
+        }
+        .discover h2{
+            font-size: 50px;
+            margin-bottom: 50px;
+        }
+}
+.discover h2{
+    margin-bottom: 15px;
+}
 .vertical-center {
     display: flex;
     align-items: right;
@@ -138,10 +161,8 @@ nav.scrolled-nav .nav-item.first a {
     color: #fff;
 }
 
-.yellow-bg {
-    background: #ffd344;
-    padding: 150px;
-
+.yellow-bg{
+    background-color: #ffd344
 }
 
 .yellow-bgsocial {
